@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Tux Privacy Policy">
+    <meta property="og:description" content="Learn about how Tux#4129 handles your data and privacy.">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/1213837998366396508/1275599997424898159/Tux1.png?ex=66c67a92&is=66c52912&hm=992330999afdb3e9c48108fdfdfaad4b696c6042cc3bf807d3ddc3e95cd44de8&=&format=webp&quality=lossless&width=522&height=522">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>Tux Privacy Policy</title>
+    <link rel="icon" href="Tux.ico" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0e0e0;
+            background-color: #000000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .title-nav {
+            background: rgba(30, 30, 30, 0.9);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 98%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            backdrop-filter: blur(3px);
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            height: 40px;
+            margin-right: 15px;
+        }
+        .title-nav h1 {
+            margin: 0;
+            font-size: 22px;
+            color: #ffffff;
+        }
+        .icon-links {
+            display: flex;
+            align-items: center;
+        }
+        .icon-links img {
+            height: 25px;
+            margin-right: 15px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .icon-links img:hover {
+            transform: scale(1.1);
+        }
+        .search input {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+        .left-nav {
+            width: 250px;
+            background: rgba(44, 44, 44, 0.8);
+            padding: 20px;
+            position: fixed;
+            top: 60px;
+            bottom: 0;
+            left: 0;
+            overflow-y: auto;
+            box-shadow: 2px 0 6px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            backdrop-filter: blur(3px);
+        }
+        .left-nav h2 {
+            color: #e0e0e0;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .left-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        .left-nav ul li {
+            margin: 10px 0;
+        }
+        .left-nav ul li a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        .left-nav ul li a:hover {
+            color: #ffffff;
+        }
+        .content {
+            margin-left: 295px;
+            margin-right: 3px;
+            padding: 20px;
+            margin-top: 75px;
+            flex: 1;
+            background: rgba(31, 31, 31, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(3px);
+        }
+        .content h2 {
+            font-size: 20px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        .content p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .left-nav {
+                width: 100%;
+                position: static;
+                padding: 10px;
+                box-shadow: none;
+                background: rgba(44, 44, 44, 0.9);
+            }
+            .left-nav ul li {
+                margin: 8px 0;
+            }
+            .content {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .title-nav h1 {
+                font-size: 18px;
+            }
+            .icon-links img {
+                height: 20px;
+                margin-right: 10px;
+            }
+            .search input {
+                font-size: 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            .title-nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .title-nav h1 {
+                font-size: 16px;
+            }
+            .icon-links {
+                margin-top: 10px;
+            }
+            .icon-links img {
+                height: 18px;
+                margin-right: 8px;
+            }
+            .search input {
+                font-size: 10px;
+            }
+            .left-nav {
+                width: 100%;
+                position: static;
+                padding: 5px;
+            }
+            .left-nav h2 {
+                font-size: 16px;
+            }
+            .content {
+                padding: 10px;
+            }
+            .content h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title-nav">
+        <div class="logo-container">
+            <img src="Tux.png" alt="Logo" class="logo">
+            <h1>Tux Privacy Policy</h1>
+        </div>
+        <div class="icon-links">
+            <a href="https://discord.com/invite/A2rQsnQMvy" target="_blank">
+                <img src="discowd.png" alt="Discord">
+            </a>
+            <a href="https://github.com/akeanti" target="_blank">
+                <img src="gitwob.png" alt="GitHub">
+            </a>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+    </div>
+    <div class="left-nav">
+        <h2>Sections</h2>
+        <ul>
+            <li><a href="#info-collection">Information Collection</a></li>
+            <li><a href="#data-usage">Data Usage</a></li>
+            <li><a href="#data-sharing">Data Sharing</a></li>
+            <li><a href="#data-security">Data Security</a></li>
+            <li><a href="#user-rights">User Rights</a></li>
+            <li><a href="#policy-changes">Policy Changes</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="info-collection">
+            <h2>1. Information Collection</h2>
+            <p>We collect minimal information necessary for the proper functioning of Tux#4129. This includes server and channel IDs but does not include personal data unless explicitly provided by you.</p>
+        </section>
+        <section id="data-usage">
+            <h2>2. Data Usage</h2>
+            <p>The data collected is used to enhance the performance and functionality of the bot. This may involve analyzing server and command usage to provide a better experience.</p>
+        </section>
+        <section id="data-sharing">
+            <h2>3. Data Sharing</h2>
+            <p>Your data is not shared with third parties, except where required to comply with Discord’s policies or legal obligations.</p>
+        </section>
+        <section id="data-security">
+            <h2>4. Data Security</h2>
+            <p>We employ security measures to safeguard your data against unauthorized access and breaches. However, no system can be completely secure, and we encourage you to take precautions as well.</p>
+        </section>
+        <section id="user-rights">
+            <h2>5. User Rights</h2>
+            <p>You have the right to access, correct, or delete your data. If you have any requests or concerns regarding your data, please contact us through the provided support channels.</p>
+        </section>
+        <section id="policy-changes">
+            <h2>6. Policy Changes</h2>
+            <p>We may update this Privacy Policy periodically. Any significant changes will be communicated through our official channels, such as our Discord server and GitHub page. Continued use of the bot after any changes indicates acceptance of the updated policy.</p>
+        </section>
+        <section id="contact">
+            <h2>7. Contact</h2>
+            <p>If you have any questions or concerns regarding this Privacy Policy or our data practices, please reach out to us via our official Discord server or GitHub page. We are here to address any issues or inquiries you may have.</p>
+        </section>
+    </div>
+</body>
+</html>
